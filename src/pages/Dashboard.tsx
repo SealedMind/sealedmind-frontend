@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useAuth } from "../lib/auth";
 import MindSeal from "../components/MindSeal";
-import type { Mind } from "@sealedmind/sdk";
+import type { Mind } from "../sdk/index";
 
 export default function Dashboard() {
   const { isConnected, isAuthenticated, login, loading, error, client, address } =
