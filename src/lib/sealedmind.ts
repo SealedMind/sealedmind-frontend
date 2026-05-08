@@ -1,4 +1,4 @@
-import { SealedMind } from "../sdk/index";
+import { SealedMind } from "@sealedmind/sdk";
 
 /** Singleton SealedMind SDK client. */
 export const client = new SealedMind({

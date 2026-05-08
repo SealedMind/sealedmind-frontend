@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useAuth } from "../lib/auth";
 import MindSeal from "../components/MindSeal";
-import type { CapabilityGrant } from "../sdk/index";
+import type { CapabilityGrant } from "@sealedmind/sdk";
 
 export default function Sharing() {
   const { id } = useParams();
